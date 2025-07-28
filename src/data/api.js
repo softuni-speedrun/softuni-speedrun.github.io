@@ -1,8 +1,8 @@
 import { getUserData } from '../utils.js';
 
 const hostname = 'https://parseapi.back4app.com';
-const appId = 'HJWjSl8cWos1W4AM2O8Q2SqJN2hXZLoCWwkVhNnj';
-const apiKey = 'gHJHrAJYLSebujMp1ivWHxNVqurWlJPQz1p4TWku';
+const appId = 'FSVwexeascWvj40hb9SNcGlLSukNdGGzMQY00cct';
+const apiKey = 'tuZMC6yPZ7qCAS6xdM1pVvrn2Wr6FGfCCJRq5wcp';
 
 async function request(method, url, data) {
     const options = {

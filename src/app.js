@@ -1,17 +1,26 @@
 import page from '@page';
-import { render, html } from '@lit';
 
-import * as api from './data/books.js';
-import * as comment from './data/comments.js';
-import * as userApi from './data/users.js';
+import { homeView } from './views/home.js';
+import { aboutView } from './views/about.js';
+import { addRender } from './middlewares/render.js';
+import { addSession } from './middlewares/session.js';
+import { addNavbar } from './middlewares/navbar.js';
+import { navbarTemplate } from './views/navbar.js';
+import { registerView } from './views/register.js';
 
-window.api = api;
-window.userApi = userApi;
-window.comment = comment;
+const root = document.querySelector('main');
+const navbar = document.querySelector('nav.navbar');
 
-page('/', () => console.log('home'));
-page('/about', () => console.log('about'));
+page(addSession());
+page(addNavbar(navbarTemplate, navbar, onLogoutSuccess));
+page(addRender(root));
+
+page('/', homeView);
+page('/about', aboutView);
+page('/register', registerView);
 
 page.start();
 
-render(html`<h2>Rendering setup<h2>`, document.body);
+function onLogoutSuccess() {
+    page.redirect('/');
+}

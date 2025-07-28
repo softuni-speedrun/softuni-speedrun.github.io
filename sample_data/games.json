@@ -4,22 +4,85 @@
             "id": 1,
             "title": "Super Fast Bros",
             "genre": "Platformer",
-            "release_year": 2012,
-            "cover_art": "cover_super_fast_bros.png"
+            "year": 2012,
+            "coverUrl": "cover_super_fast_bros.png"
         },
         {
             "id": 2,
             "title": "Zoom Kart 9",
             "genre": "Racing",
-            "release_year": 2019,
-            "cover_art": "cover_zoom_kart_9.png"
+            "year": 2019,
+            "coverUrl": "cover_zoom_kart_9.png"
         },
         {
             "id": 3,
             "title": "Dungeon Dash",
             "genre": "Roguelike",
-            "release_year": 2020,
-            "cover_art": "cover_dungeon_dash.png"
+            "year": 2020,
+            "coverUrl": "cover_dungeon_dash.png"
+        },
+        {
+            "id": 4,
+            "title": "Chrono Sprint",
+            "genre": "Time Travel Adventure",
+            "year": 2023,
+            "coverUrl": "cover_chrono_sprint.png"
+        },
+        {
+            "id": 5,
+            "title": "Pixel Blitz",
+            "genre": "Arcade Shooter",
+            "year": 2015,
+            "coverUrl": "cover_pixel_blitz.png"
+        },
+        {
+            "id": 6,
+            "title": "Cyber Drift",
+            "genre": "Futuristic Racing",
+            "year": 2021,
+            "coverUrl": "cover_cyber_drift.png"
+        },
+        {
+            "id": 7,
+            "title": "MegaBot Mayhem",
+            "genre": "Action Platformer",
+            "year": 2010,
+            "coverUrl": "cover_megabot_mayhem.png"
+        },
+        {
+            "id": 8,
+            "title": "Shadow Runner X",
+            "genre": "Stealth Puzzle",
+            "year": 2016,
+            "coverUrl": "cover_shadow_runner_x.png"
+        },
+        {
+            "id": 9,
+            "title": "Galaxy Bash",
+            "genre": "Sci-Fi Shooter",
+            "year": 2018,
+            "coverUrl": "cover_galaxy_bash.png"
+        },
+        {
+            "id": 10,
+            "title": "Tower of Trials",
+            "genre": "Strategy Roguelike",
+            "year": 2022,
+            "coverUrl": "cover_tower_of_trials.png"
+        },
+        {
+            "id": 11,
+            "title": "BounceQuest",
+            "genre": "Physics Puzzle",
+            "year": 2017,
+            "coverUrl": "cover_bouncequest.png"
+        },
+        {
+            "id": 12,
+            "title": "Blade Circuit",
+            "genre": "Hack-and-Slash Speed Combat",
+            "year": 2024,
+            "coverUrl": "cover_blade_circuit.png"
         }
     ]
 }

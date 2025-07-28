@@ -90,3 +90,7 @@ button:hover {
     align-items: center;
     color: #666;
 }
+
+.err-msg {
+    color: red;
+}

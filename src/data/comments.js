@@ -1,31 +1,27 @@
 import { addOwner, del, get, pointer, post, put } from './api.js';
 
-const endspoints = {
+const endpoints = {
     comments: '/classes/Comment',
     commentById: '/classes/Comment/'
 };
 
-export async function getCommentsByBookId(bookId) {
-    return get(endspoints.comments + `?order=-createdAt&where=${encodeURIComponent(JSON.stringify({ book: pointer('Books', bookId) }))}`);
+export async function getCommentsByGameId(gameId) {
+    return get(endpoints.comments + `?order=-createdAt&where=${encodeURIComponent(JSON.stringify({ game: pointer('Game', gameId) }))}`);
 }
 
-export async function getCommentAndBooks() {
-    return get(endspoints.comments + '?include=book');
-}
-
-export async function createComment(content, bookId) {
+export async function createComment(content, gameId) {
     const comment = addOwner({
         content,
-        book: pointer('Books', bookId)
+        game: pointer('Game', gameId)
     });
 
-    return post(endspoints.comments, comment);
+    return post(endpoints.comments, comment);
 }
 
 export async function updateComment(id, comment) {
-    return put(endspoints.commentById + id, comment);
+    return put(endpoints.commentById + id, comment);
 }
 
 export async function deleteComment(id) {
-    return del(endspoints.commentById + id);
+    return del(endpoints.commentById + id);
 }
