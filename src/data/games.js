@@ -8,7 +8,10 @@ const endpoints = {
 const pageSize = 5;
 
 export async function getAllGames(page = 1) {
-    return get(endpoints.games + `?limit=${pageSize}&skip=${(page - 1) * pageSize}&count=1&order=-year`);
+    const data = await get(endpoints.games + `?limit=${pageSize}&skip=${(page - 1) * pageSize}&count=1&order=-year`);
+    data.pages = Math.ceil(data.count / pageSize);
+
+    return data;
 }
 
 export async function getGameById(id) {
