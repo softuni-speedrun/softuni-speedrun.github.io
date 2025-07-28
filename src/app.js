@@ -1,4 +1,5 @@
-import page from 'https://unpkg.com/page@1.11.6/page.mjs';
+import page from '@page';
+import { render, html } from '@lit';
 
 import * as api from './data/books.js';
 import * as comment from './data/comments.js';
@@ -12,3 +13,5 @@ page('/', () => console.log('home'));
 page('/about', () => console.log('about'));
 
 page.start();
+
+render(html`<h2>Rendering setup<h2>`, document.body);

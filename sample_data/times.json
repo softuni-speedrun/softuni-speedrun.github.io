@@ -1,0 +1,76 @@
+{
+    "times": [
+        {
+            "game_id": 1,
+            "participant_id": 101,
+            "username": "SpeedySam",
+            "category": "Any%",
+            "completion_time": "00:12:34",
+            "submitted_at": "2025-07-28T15:00:00Z"
+        },
+        {
+            "game_id": 1,
+            "participant_id": 104,
+            "username": "JumpJet",
+            "category": "100%",
+            "completion_time": "00:18:56",
+            "submitted_at": "2025-07-28T15:10:00Z"
+        },
+        {
+            "game_id": 1,
+            "participant_id": 105,
+            "username": "PixelDash",
+            "category": "Any%",
+            "completion_time": "00:13:22",
+            "submitted_at": "2025-07-28T15:18:00Z"
+        },
+        {
+            "game_id": 2,
+            "participant_id": 102,
+            "username": "KartMaster",
+            "category": "100%",
+            "completion_time": "00:23:47",
+            "submitted_at": "2025-07-28T15:45:00Z"
+        },
+        {
+            "game_id": 2,
+            "participant_id": 106,
+            "username": "TurboTiff",
+            "category": "Any%",
+            "completion_time": "00:21:10",
+            "submitted_at": "2025-07-28T15:50:00Z"
+        },
+        {
+            "game_id": 2,
+            "participant_id": 107,
+            "username": "LapLegend",
+            "category": "Time Trial",
+            "completion_time": "00:19:44",
+            "submitted_at": "2025-07-28T16:00:00Z"
+        },
+        {
+            "game_id": 3,
+            "participant_id": 103,
+            "username": "RogueSpeed",
+            "category": "Low% No Damage",
+            "completion_time": "00:30:11",
+            "submitted_at": "2025-07-28T16:10:00Z"
+        },
+        {
+            "game_id": 3,
+            "participant_id": 108,
+            "username": "CloakRunner",
+            "category": "Any%",
+            "completion_time": "00:27:35",
+            "submitted_at": "2025-07-28T16:18:00Z"
+        },
+        {
+            "game_id": 3,
+            "participant_id": 109,
+            "username": "TrapTrigger",
+            "category": "100%",
+            "completion_time": "00:35:22",
+            "submitted_at": "2025-07-28T16:25:00Z"
+        }
+    ]
+}

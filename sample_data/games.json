@@ -1,0 +1,25 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "title": "Super Fast Bros",
+            "genre": "Platformer",
+            "release_year": 2012,
+            "cover_art": "cover_super_fast_bros.png"
+        },
+        {
+            "id": 2,
+            "title": "Zoom Kart 9",
+            "genre": "Racing",
+            "release_year": 2019,
+            "cover_art": "cover_zoom_kart_9.png"
+        },
+        {
+            "id": 3,
+            "title": "Dungeon Dash",
+            "genre": "Roguelike",
+            "release_year": 2020,
+            "cover_art": "cover_dungeon_dash.png"
+        }
+    ]
+}

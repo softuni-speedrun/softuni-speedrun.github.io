@@ -1,0 +1,58 @@
+{
+    "comments": [
+        {
+            "game_id": 1,
+            "participant_id": 101,
+            "comment": "This level’s wall jump timing is brutal!",
+            "submitted_at": "2025-07-28T15:20:00Z"
+        },
+        {
+            "game_id": 1,
+            "participant_id": 104,
+            "comment": "Boss fight glitch saved me 10 seconds!",
+            "submitted_at": "2025-07-28T15:23:00Z"
+        },
+        {
+            "game_id": 1,
+            "participant_id": 105,
+            "comment": "New route through the lava cave 👀",
+            "submitted_at": "2025-07-28T15:26:00Z"
+        },
+        {
+            "game_id": 2,
+            "participant_id": 102,
+            "comment": "New shortcut found on Rainbow Circuit!",
+            "submitted_at": "2025-07-28T15:55:00Z"
+        },
+        {
+            "game_id": 2,
+            "participant_id": 106,
+            "comment": "Turbo boost timing on lap 2 is key.",
+            "submitted_at": "2025-07-28T15:58:00Z"
+        },
+        {
+            "game_id": 2,
+            "participant_id": 107,
+            "comment": "Anyone else clipping through billboards?",
+            "submitted_at": "2025-07-28T16:02:00Z"
+        },
+        {
+            "game_id": 3,
+            "participant_id": 103,
+            "comment": "Had to reset 8 times before RNG cooperated 😅",
+            "submitted_at": "2025-07-28T16:15:00Z"
+        },
+        {
+            "game_id": 3,
+            "participant_id": 108,
+            "comment": "Found a hidden chest in level 4!",
+            "submitted_at": "2025-07-28T16:22:00Z"
+        },
+        {
+            "game_id": 3,
+            "participant_id": 109,
+            "comment": "Armor pickup timing matters more than you'd think.",
+            "submitted_at": "2025-07-28T16:27:00Z"
+        }
+    ]
+}
